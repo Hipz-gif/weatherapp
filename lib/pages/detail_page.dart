@@ -51,7 +51,7 @@ class _DetailPageState extends State<DetailPage> {
                             onPressed: () {
                               BlocProvider.of<AppCubits>(context).goHome();
                             },
-                            icon: Icon(Icons.menu),
+                            icon: Icon(Icons.arrow_back_ios),
                             color: Colors.white),
                       ],
                     ),
